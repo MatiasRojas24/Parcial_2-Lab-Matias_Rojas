@@ -1,0 +1,16 @@
+CASOS EJEMPLO
+NO ES MUTANTE: 
+A T G C T A
+C G A T G C
+T A C G T A
+G C T A G C
+A T G C T A
+C G A T G C
+----------------------------------------------------
+ES MUTANTE: 
+G A G T A G
+C A C T G C
+A C T T A C
+G T C G A A
+T T G C A T
+A A A C A G
