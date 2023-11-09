@@ -91,9 +91,9 @@ public class parcial {
 // Función que informa si el sujeto es mutante o no
     public static boolean isMutant(List<String> dna) {
         int mutantDnaOccurrences = 0;
-        //mutantDnaOccurrences += validateRows(dna);
-        //mutantDnaOccurrences += validateColumns(dna);
-        //mutantDnaOccurrences += validateMainDiagonals(dna);
+        mutantDnaOccurrences += validateRows(dna);
+        mutantDnaOccurrences += validateColumns(dna);
+        mutantDnaOccurrences += validateMainDiagonals(dna);
         mutantDnaOccurrences += validateSecondaryDiagonals(dna);
         return mutantDnaOccurrences > 1;
     }
